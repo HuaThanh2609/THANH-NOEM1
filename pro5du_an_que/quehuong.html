@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bán Hàng & Du Lịch</title>
+  <link rel="stylesheet" href="quehuong.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Bán Hàng & Du Lịch</h1>
+      <nav>
+        <ul>
+          <li><a href="#ban-hang">Bán Hàng</a></li>
+          <li><a href="#du-lich">Du Lịch</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="ban-hang">
+    <div class="container">
+      <h2>Đặc Sản Vùng Cao</h2>
+      <div class="products">
+        <!-- Mỗi sản phẩm -->
+        <div class="product">
+          <img src="images/com.jpg" alt="Cốm">
+          <h3>Cốm</h3>
+          <p>Đặc sản cốm xanh thơm ngon, dẻo mềm, hương vị truyền thống.</p>
+        </div>
+
+        <div class="product">
+          <img src="images/ruou-ngo.jpg" alt="Rượu Ngô Men Lá">
+          <h3>Rượu Ngô Men Lá</h3>
+          <p>Rượu ngô men lá được nấu theo phương pháp truyền thống của người dân tộc.</p>
+        </div>
+
+        <div class="product">
+          <img src="images/bun-kho.jpg" alt="Bún Khô">
+          <h3>Bún Khô</h3>
+          <p>Bún khô sạch, làm từ gạo tự nhiên, đảm bảo an toàn và chất lượng.</p>
+        </div>
+
+        <div class="product">
+          <img src="images/mang.jpg" alt="Măng">
+          <h3>Măng</h3>
+          <p>Măng khô thơm ngon, được chế biến từ măng rừng tươi ngon.</p>
+        </div>
+
+        <div class="product">
+          <img src="images/banh-troi.jpg" alt="Bánh Trời">
+          <h3>Bánh Trời</h3>
+          <p>Bánh trời mềm dẻo, hương vị ngọt ngào, là món ăn vặt đặc trưng.</p>
+        </div>
+
+        <div class="product">
+          <img src="images/che-shan-tuyet.jpg" alt="Chè Shan Tuyết">
+          <h3>Chè Shan Tuyết</h3>
+          <p>Chè Shan tuyết cổ thụ, thơm ngon, tốt cho sức khỏe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="du-lich">
+    <div class="container">
+      <h2>Du Lịch</h2>
+      <p>Hãy điền thông tin vào form bên dưới để nhận tư vấn!</p>
+      <form action="#" method="post" id="du-lich-form">
+        <div class="form-group">
+          <label for="name">Họ và Tên:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Số Điện Thoại:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <div class="form-group">
+          <label for="destination">Điểm Đến Mong Muốn:</label>
+          <select id="destination" name="destination">
+            <option value="sa-pa">Sa Pa</option>
+            <option value="ha-giang">Hà Giang</option>
+            <option value="cao-bang">Cao Bằng</option>
+            <option value="yen-bai">Yên Bái</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Lời Nhắn:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Ghi thêm thông tin nếu cần..."></textarea>
+        </div>
+
+        <button type="submit">Gửi Thông Tin</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 - Bản quyền thuộc về Bán Hàng & Du Lịch</p>
+    </div>
+  </footer>
+</body>
+</html>
