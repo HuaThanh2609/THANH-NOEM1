@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAM WEB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+    <style>
+        h1{
+            color: rgb(89, 76, 234);
+        }
+        .text{
+            font-size: 25px;
+        } 
+        .box-radius{
+            background-color: aliceblue;
+            display: inline-block;
+            border: 2px solid #000;
+            border-radius: 20px;
+
+            padding: 50px;
+            text-align: center;
+        
+            
+        }
+       
+        .background{
+          
+            background-image: url('https://images.unsplash.com/photo-1709432450714-5baf0d400e9f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .input{
+            border-radius: 10px;
+            border: 3px solid #364;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+
+          
+
+        }
+        .box-input{
+            text-align: left;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="box-radius">
+                <h1><strong>ĐĂNG NHẬP</strong></h1>
+                <div class="box-input">
+                    <p class="text">Đăng nhập Email hoặc số điện thoại</p>
+                     <input type="email" class="input">
+                     <i class="fa-regular fa-envelope"></i>
+                     <p class="text">Mật khẩu</p>
+                     <input type="password" class="input">
+                     <br>
+                     <a href="#">Quên mật khẩu</a>
+                     
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>
