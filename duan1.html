@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tập đoàn Bảo Yến - Dịch vụ Vận tải</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #4ca1af, #c4e0e5);
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        .hero {
+            background: url('image.png') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+        .feature {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            flex: 1;
+        }
+        .booking {
+            background: #f9f9f9;
+            padding: 20px;
+        }
+        .booking form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .booking input, .booking select, .booking button {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .login {
+            background: #eef2f3;
+            padding: 20px;
+            text-align: center;
+        }
+        .login form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .login input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login button {
+            padding: 10px 20px;
+            background-color: #4ca1af;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login button:hover {
+            background-color: #3b8791;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hợp Đồng Du Lịch Xuân Quỳnh</h1>
+        <p>Dịch vụ Vận tải Chuyên nghiệp - Đà Vị - Na Hang - Tuyên Quang</p>
+    </header>
+
+    <section class="hero">  
+        <h1>Hành trình thoải mái và đáng tin cậy</h1>
+        <p>Lái xe chuyên nghiệp, dịch vụ đúng giờ, và xe chất lượng cao chỉ từ 160K</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <h3>Lái xe chuyên nghiệp</h3>
+            <p>Những tài xế giàu kinh nghiệm và lịch sự cho chuyến đi suôn sẻ.</p>
+        </div>
+        <div class="feature">
+            <h3>Xe hiện đại</h3>
+            <p>Xe 16 chỗ tốc độ cao đảm bảo sự thoải mái và an toàn.</p>
+        </div>
+        <div class="feature">
+            <h3>Tiện nghi tiện lợi</h3>
+            <p>Thưởng thức khăn lạnh và nước khoáng trên xe.</p>
+        </div>
+    </section>
+
+    <section class="booking">
+        <h2>Đặt chuyến đi của bạn</h2>
+        <form>
+            <select name="pickup" required>
+                <option value="" disabled selected>Chọn điểm đi</option>
+                <option value="hanoi">Hà Nội</option>
+                <option value="tuyenquang">Tuyên Quang</option>
+            </select>
+            <select name="destination" required>
+                <option value="" disabled selected>Chọn điểm đến</option>
+                <option value="airport">Sân bay</option>
+                <option value="hospital">Bệnh viện</option>
+            </select>
+            <input type="date" name="date" required>
+            <button type="submit">Tìm chuyến</button>
+        </form>
+    </section>
+
+    <section class="login">
+        <h2>Đăng nhập</h2>
+        <form>
+            <input type="email" name="email" placeholder="Nhập email của bạn" required>
+            <input type="password" name="password" placeholder="Nhập mật khẩu" required>
+            <button type="submit">Đăng nhập</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tập đoàn Bảo Yến. Bảo lưu mọi quyền.</p>
+    </footer>
+</body>
+</html>
+    
